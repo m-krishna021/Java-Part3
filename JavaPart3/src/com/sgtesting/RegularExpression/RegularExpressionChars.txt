@@ -1,0 +1,23 @@
+RegularExpression 						Description
+Character             
+---------------------------              -----------------
+^   									It matches beginning of the String
+$										It matches end of the string
+.										It matches exactly one character at a time
+*										It matches preceding character zero or more time
++										It matches preceding character one or more time
+?										It matches preceding character one time or zero time
+{n}										It matches n number of occurance
+x|y										It matches either x or y
+[abcd]									It matches any one character enclosed in list
+[^abcd]									It matches any one character other than the character enclosed in the list
+[a-z]									It matches any one lower case character
+[A-Z]									It matches any one upper case character
+[a-z|A-Z]								It matches any one either lower case or uppercase character
+[^a-z]									It matches any one character other than lowecase a to z
+[^A-Z]									It matches any one character other than uppercase A to Z	
+[1234]									It matches any one digit enclosed in the list
+[^1234]									It matches any digit other than the digits enclosed in the list
+[0-9]									It matches any one digit in between 0 to 9
+[^0-9]									It matches other than zero  to 9
+\										Excape character, it loose teh special meaning of any reserved character
